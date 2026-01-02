@@ -1,0 +1,6 @@
+.home { padding: 40px; }
+.search { padding: 12px; width: 100%; margin-bottom: 30px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px,1fr)); gap: 24px; }
+.card { text-decoration: none; color: black; transition: transform .2s; }
+.card:hover { transform: scale(1.03); }
+.card img { width: 100%; height: 260px; object-fit: cover; border-radius: 12px; }
